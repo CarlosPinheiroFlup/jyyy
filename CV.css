@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f5;
+    padding: 20px;
+    min-height: 100vh; 
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.Apresentacao_lateral {
+    background-color: #33537d;
+    color: #ffffff;
+    padding: 80px;
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 600px; 
+}
+
+.Apresentacao_lateral .imagem {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 25px; 
+}
+
+.Apresentacao_lateral h1 {
+    font-size: 1.5em; 
+    margin: 20px 0; 
+}
+
+.Apresentacao_lateral p {
+    font-size: 1em; 
+    margin-bottom: 15px; 
+}
+
+.Apresentacao_lateral a {
+    color: #a1caff;
+    text-decoration: none;
+    font-size: 0.9em; 
+    margin-top: 15px; 
+}
+
+.Apresentacao_lateral a:hover {
+    color: #ffdd57;
+}
+
+.sobremim {
+    margin-top: 40px; 
+}
+
+.container {
+    width: 70%; 
+    padding: 30px; 
+}
+
+.container > div {
+    margin-bottom: 30px; 
+}
+
+.container .Apresentacao h2,
+.container .CompetenciasLinguisticas h2,
+.container .CompetenciasDigitais h2,
+.container .extra h2,
+.container .conferencias-e-seminarios h2 {
+    font-size: 1.5em; 
+    color: #35495e;
+    margin-bottom: 15px; 
+    border-bottom: 2px solid #35495e; 
+    padding-bottom: 8px; 
+
+.container .Apresentacao p,
+.container .CompetenciasLinguisticas p,
+.container .CompetenciasDigitais p,
+.container .extra p,
+.container .conferencias-e-seminarios p {
+    margin-bottom: 20px; 
+    font-size: 1em; 
+    line-height: 1.6; 
+}
+
+
+.projeto-investigacao {
+    display: block; 
+    margin-top: 4px; 
+    font-size: 1px; 
+    color: #4c4c4c; 
+}
+
+
+.container .CompetenciasLinguisticas p strong,
+.container .CompetenciasDigitais p {
+    font-weight: bold;
+    color: #666;
+}
+
+.extra p strong {
+    display: inline-block;
+    color: #375575;
+}
+
+.conferencias-e-seminarios {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-top: 30px; 
+}
+
+.conferencias-e-seminarios h2 {
+    font-size: 1.5em;
+    color: #35495e;
+    border-bottom: 2px solid #35495e;
+    padding-bottom: 8px;
+    margin-bottom: 20px; 
+}
+
+.conferencias-e-seminarios ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.conferencias-e-seminarios li {
+    margin-bottom: 25px; 
+    padding-left: 15px; 
+    border-left: 4px solid #35495e; 
+}
+
+.conferencias-e-seminarios li p {
+    margin: 0;
+    padding: 2px 0;
+}
+
+.conferencias-e-seminarios li p:first-child {
+    font-weight: bold;
+    color: #222; 
+}
+
+.conferencias-e-seminarios li p:first-child strong {
+    color: #375575; 
+}
+
+.conferencias-e-seminarios li p:nth-child(2) {
+    font-style: italic; 
+    color: #555; 
+    padding-left: 15px; 
+}
+
+
